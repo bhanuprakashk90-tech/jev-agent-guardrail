@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.cover
+*.py,w
+*.tmw
+*~
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Logs
+*.log
+guardrail_audit.log
+
+# Sandbox directories (from file operations demo)
+jev_guardrail_demo_*/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets - never commit API keys
+*.key
+*.pem
+*.p12
+*.pfx
+secrets.json
